@@ -1,24 +1,25 @@
-# 🚗 Locadora de Veículos
+# Locadora de Veículos
 
 Sistema de locadora de veículos desenvolvido como **projeto final da disciplina de Programação Orientada a Objetos**, aplicando os conceitos de POO a um problema real de gestão de frota, clientes e aluguéis.
 
-## 👥 Equipe
+## Equipe
 
 | Nome | GitHub |
 |------|--------|
-| Nome 1 | [@usuario1](https://github.com/usuario1) |
-| Nome 2 | [@usuario2](https://github.com/usuario2) |
-| Nome 3 | [@usuario3](https://github.com/usuario3) |
+| Isaque dos Reis Jess | [@usuario1](https://github.com/usuario1) |
+| Laura Zoffoli Silveira | [@usuario2](https://github.com/usuario2) |
+| Nicolas Lourenço | [@nicolaslourenc2](https://github.com/nicolaslourenc2) |
+| Rauhan Kniess de Moura| [@usuario3](https://github.com/usuario3) |
 
 **Disciplina:** Programação Orientada a Objetos
-**Instituição:** _(preencher)_
-**Professora:** _(preencher)_
+**Instituição:** _Pontifícia Universidade Católica do Paraná_
+**Professora:** _Marina de Lara_
 
-## 📌 Descrição do problema
+## escrição do problema
 
 Uma locadora precisa controlar sua frota, saber quais veículos estão disponíveis, cadastrar clientes, registrar reservas e aluguéis, calcular o valor a cobrar e tratar devoluções, incluindo multas por atraso ou danos. Cada tipo de veículo tem regras próprias (documentação exigida, forma de cobrança), o que torna o domínio adequado para modelagem orientada a objetos.
 
-## ✅ Funcionalidades
+## Funcionalidades
 
 - [ ] Cadastro de veículos (carro, moto e caminhão)
 - [ ] Cadastro de clientes
@@ -31,7 +32,7 @@ Uma locadora precisa controlar sua frota, saber quais veículos estão disponív
 
 > Marque as caixas conforme as funcionalidades forem concluídas.
 
-## 🧩 Decisões de modelagem
+## Decisões de modelagem
 
 Esta seção explica **por que** cada conceito de POO foi usado e qual problema ele resolve.
 
@@ -46,13 +47,13 @@ Esta seção explica **por que** cada conceito de POO foi usado e qual problema 
 | Classe/método abstrato | `Veiculo` | _(preencher)_ |
 | Interface | _(ex.: `Multavel`)_ | _(preencher)_ |
 
-## ⭐ Recursos extras
+## Recursos extras
 
 - [ ] Tratamento de exceções
 - [ ] _(recurso 2)_
 - [ ] _(recurso 3, se a equipe tiver 4 ou 5 integrantes)_
 
-## 🗂️ Estrutura do projeto
+## Estrutura do projeto
 
 ```
 locadora-veiculos/
@@ -67,12 +68,12 @@ locadora-veiculos/
 
 > Ajuste conforme a estrutura real do projeto.
 
-## ⚙️ Requisitos
+## Requisitos
 
 - Java _(versão, ex.: 17 ou superior)_
 - _(IDE ou ferramenta de build, se houver)_
 
-## ▶️ Como instalar e executar
+## Como instalar e executar
 
 ```bash
 # 1. Clonar o repositório
@@ -88,10 +89,10 @@ java -cp out Main
 
 > Ajuste os comandos conforme o projeto (Maven, Gradle, IDE etc.).
 
-## 🖥️ Exemplo de uso
+## Exemplo de uso
 
 _(Adicionar prints ou um trecho do console mostrando um aluguel e uma devolução.)_
 
-## 📄 Licença
+## Licença
 
 Projeto acadêmico, sem fins comerciais.
