@@ -1,57 +1,60 @@
-# rent-a-vehicle
-Sistema de locadora de veículos em Java, desenvolvido como projeto final de Programação Orientada a Objetos.
+# 🚗 Locadora de Veículos
 
-Locadora de Veículos
+Sistema de locadora de veículos desenvolvido como **projeto final da disciplina de Programação Orientada a Objetos**, aplicando os conceitos de POO a um problema real de gestão de frota, clientes e aluguéis.
 
-Sistema de locadora de veículos desenvolvido como projeto final da disciplina de Programação Orientada a Objetos, aplicando os conceitos de POO a um problema real de gestão de frota, clientes e aluguéis.
+## 👥 Equipe
 
-Equipe
-Nome	GitHub
-Isaque dos Reis Jess 	@isaque
-Laura Zoffoli Silveira	@laura
-Nicolas Lourenço	    @nicolaslourenc2
-Rauhan Kniess de Moura  @rauhan
+| Nome | GitHub |
+|------|--------|
+| Nome 1 | [@usuario1](https://github.com/usuario1) |
+| Nome 2 | [@usuario2](https://github.com/usuario2) |
+| Nome 3 | [@usuario3](https://github.com/usuario3) |
 
-Disciplina: Programação Orientada a Objetos
-Instituição: Pontifícia Universidade Católica do Paraná
-Professora: Marina de Lara
+**Disciplina:** Programação Orientada a Objetos
+**Instituição:** _(preencher)_
+**Professora:** _(preencher)_
 
-Descrição do problema
+## 📌 Descrição do problema
 
 Uma locadora precisa controlar sua frota, saber quais veículos estão disponíveis, cadastrar clientes, registrar reservas e aluguéis, calcular o valor a cobrar e tratar devoluções, incluindo multas por atraso ou danos. Cada tipo de veículo tem regras próprias (documentação exigida, forma de cobrança), o que torna o domínio adequado para modelagem orientada a objetos.
 
-Funcionalidades
-[ ] Cadastro de veículos (carro, moto e caminhão)
-[ ] Cadastro de clientes
-[ ] Controle de disponibilidade da frota
-[ ] Reserva de veículos
-[ ] Registro de aluguel
-[ ] Cálculo do valor do aluguel conforme o tipo de veículo
-[ ] Registro de devolução e cálculo de multas
-[ ] Histórico de aluguéis
+## ✅ Funcionalidades
 
-Marque as caixas conforme as funcionalidades forem concluídas.
+- [ ] Cadastro de veículos (carro, moto e caminhão)
+- [ ] Cadastro de clientes
+- [ ] Controle de disponibilidade da frota
+- [ ] Reserva de veículos
+- [ ] Registro de aluguel
+- [ ] Cálculo do valor do aluguel conforme o tipo de veículo
+- [ ] Registro de devolução e cálculo de multas
+- [ ] Histórico de aluguéis
 
-Decisões de modelagem
+> Marque as caixas conforme as funcionalidades forem concluídas.
 
-Esta seção explica por que cada conceito de POO foi usado e qual problema ele resolve.
+## 🧩 Decisões de modelagem
 
-Conceito	Onde está no código	Por que foi usado
-Classes e objetos	Veiculo, Cliente, Reserva, Aluguel	(preencher)
-Encapsulamento	(ex.: status e quilometragem do veículo)	(preencher)
-Coleção de objetos	(ex.: Locadora guarda List<Veiculo>)	(preencher)
-Associação	(ex.: Aluguel liga Cliente e Veiculo)	(preencher)
-Herança	Carro, Moto, Caminhao estendem Veiculo	(preencher)
-Polimorfismo	(ex.: calcularValor() por tipo de veículo)	(preencher)
-Classe/método abstrato	Veiculo	(preencher)
-Interface	(ex.: Multavel)	(preencher)
+Esta seção explica **por que** cada conceito de POO foi usado e qual problema ele resolve.
 
-Recursos extras
-[ ] Tratamento de exceções
-[ ] (recurso 2)
-[ ] (recurso 3, se a equipe tiver 4 ou 5 integrantes)
+| Conceito | Onde está no código | Por que foi usado |
+|----------|--------------------|-------------------|
+| Classes e objetos | `Veiculo`, `Cliente`, `Reserva`, `Aluguel` | _(preencher)_ |
+| Encapsulamento | _(ex.: status e quilometragem do veículo)_ | _(preencher)_ |
+| Coleção de objetos | _(ex.: `Locadora` guarda `List<Veiculo>`)_ | _(preencher)_ |
+| Associação | _(ex.: `Aluguel` liga `Cliente` e `Veiculo`)_ | _(preencher)_ |
+| Herança | `Carro`, `Moto`, `Caminhao` estendem `Veiculo` | _(preencher)_ |
+| Polimorfismo | _(ex.: `calcularValor()` por tipo de veículo)_ | _(preencher)_ |
+| Classe/método abstrato | `Veiculo` | _(preencher)_ |
+| Interface | _(ex.: `Multavel`)_ | _(preencher)_ |
 
-Estrutura do projeto
+## ⭐ Recursos extras
+
+- [ ] Tratamento de exceções
+- [ ] _(recurso 2)_
+- [ ] _(recurso 3, se a equipe tiver 4 ou 5 integrantes)_
+
+## 🗂️ Estrutura do projeto
+
+```
 locadora-veiculos/
 ├── src/
 │   ├── modelo/        # entidades (Veiculo, Carro, Moto, Caminhao, Cliente...)
@@ -60,16 +63,18 @@ locadora-veiculos/
 │   └── Main.java
 ├── README.md
 └── .gitignore
+```
 
-Ajuste conforme a estrutura real do projeto.
+> Ajuste conforme a estrutura real do projeto.
 
-Requisitos
-Java (versão, ex.: 17 ou superior)
-(IDE ou ferramenta de build, se houver)
+## ⚙️ Requisitos
 
+- Java _(versão, ex.: 17 ou superior)_
+- _(IDE ou ferramenta de build, se houver)_
 
-Como instalar e executar
-bash
+## ▶️ Como instalar e executar
+
+```bash
 # 1. Clonar o repositório
 git clone https://github.com/<usuario>/locadora-veiculos.git
 cd locadora-veiculos
@@ -79,11 +84,14 @@ javac -d out $(find src -name "*.java")
 
 # 3. Executar
 java -cp out Main
+```
 
-Ajuste os comandos conforme o projeto (Maven, Gradle, IDE etc.).
+> Ajuste os comandos conforme o projeto (Maven, Gradle, IDE etc.).
 
-Exemplo de uso
-(Adicionar prints ou um trecho do console mostrando um aluguel e uma devolução.)
+## 🖥️ Exemplo de uso
 
-Licença
+_(Adicionar prints ou um trecho do console mostrando um aluguel e uma devolução.)_
+
+## 📄 Licença
+
 Projeto acadêmico, sem fins comerciais.
